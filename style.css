@@ -1,0 +1,127 @@
+/* suppression des marges naturelles du body, changement police et application d'une image de fond */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono', monospace;
+    background-image: url(img/andrew-buchanan-CNdkwbntaIE-unsplash.jpg);   
+}
+
+/* mise en blanc de la couleur de fond du header, et mise en flex du conteneur pour centrage*/
+
+header, footer{
+    background: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* mise en forme du menu de navigation, suppression des puces et changement de pointeur au survol */
+
+nav ul{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+nav ul li{
+    border: 3px solid white;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    cursor: pointer;
+}
+
+/* tranformation de taille des éléments du menu au survol */
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+/* mise en forme du conteneur main et de ses enfants */
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main p{
+    max-width: 75vw;
+}
+
+#main img{
+    max-width: 50vw;
+    height: auto;
+    margin: 2rem;
+}
+
+.gallery{
+    margin: 2rem;
+}
+
+.desc{
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#video{
+    margin: 2rem;
+}
+
+/* mise en forme du formulaire de la page contact */
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border: solid 3px white;
+    border-radius: 1rem;
+}
+
+#form div{
+    margin: 0.5rem;
+}
+
+/* mise en forme du footer */
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+footer ul{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+footer ul li{
+    cursor: pointer;
+}
+
+footer ul li:hover{
+    transform: scale(1.1);
+}
+
+/* suppression du soulignement et coloration des liens */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited{
+color: black;
+}
+
