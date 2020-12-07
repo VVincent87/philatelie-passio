@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>philatélie-passion.fr - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"> 
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <img src="img/PP-logo.jpg" alt="logo">
+        <h2>Site officiel du Club Philatélie-Passion</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"></a>Accueil</li>
+            <li><a href="presentation.html">Le Club PP</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <p>Parce qu'on est des gens symathiques et civilisés, on te propose, si tu en as envie, de rejoindre notre belle institution de timbrés, et de s'enjailler autour de quelques albums. Pour ça, n'hésite pas à venir nous retrouver tous les 1ers mardis de pleine lune à l'Irish Pub!</p>
+        <img src="img/philateliste2.jpg" alt="philateliste2">
+        <p>Mais si tu as des soucis de timidité, on ne va pas te juger, promis. On sait que des rockeurs barbus philatélistes, au premier abord, ca fait un peu secte... Alors on t'autorise à nous joindre par écrit si t'as une question! </p>
+        <form id="form" action="" method="post">
+            <div>
+                <label for="name">Ton nom :</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">Ton e-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">Ton message :</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div>
+                <label for="dropdown">Tu aimes les timbres?</label>
+                <select id="dropdown">
+                    <option value="1">Oui</option>
+                    <option value="2">Oui mais en bleu</option>
+                    <option value="3">42</option>
+                </select>
+            </div>
+            <div>
+                <label for="checkbox">Coche cette case si tu as peur des lombrics:</label>
+                <input type="checkbox" name="checkbox">
+            </div>
+            <div>
+                <label for="file">Tu peux nous envoyer une photo de ton chien:</label>
+                <input type="file" name="file">
+            </div>
+
+        </form>
+
+        <div>
+            <button onclick="window.location.href = 'https://tenor.com/view/accomplished-mission-gif-9140872';">Envoyer</button>
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.philatelie-francaise.com/">Référence timbres Francais</a></li>
+            <li><a href="contact.html">Contactez-nous</a></li>
+            <li> <a href="https://www.facebook.com/">Suivez-nous sur Facebook!</a></li>
+        </ul>
+        <p>Copyright 2020 // Vic0187 @ IT-Akademy</p>
+    </footer>
+
+</body>
+</html>
